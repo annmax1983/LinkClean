@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1400">
+<title>LinkClean — Chrome Web Store promotional tile</title>
+<style>
+:root{--accent:#0f766e;--accent-2:#2fbfae;--ink:#132220;--body:#45585a;--muted:#64777a;--line:#dfe9e7}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1400px;height:560px;overflow:hidden}
+body{background:#f4f9f8;color:var(--body);font-family:"Segoe UI Variable Text","Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.tile{position:relative;width:1400px;height:560px;overflow:hidden;display:flex;align-items:center;gap:44px;padding:0 76px;background:
+linear-gradient(135deg,#ffffff 0%, color-mix(in srgb, var(--accent) 7%, #ffffff) 52%, color-mix(in srgb, var(--accent-2) 18%, #ffffff) 100%)}
+.tile::before{content:"";position:absolute;right:-130px;top:-190px;width:620px;height:620px;border-radius:50%;border:1px solid color-mix(in srgb, var(--accent) 22%, #ffffff);box-shadow:0 0 0 64px color-mix(in srgb, var(--accent) 5%, rgba(255,255,255,0)),0 0 0 128px color-mix(in srgb, var(--accent-2) 4%, rgba(255,255,255,0));pointer-events:none}
+.tile::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2))}
+.copy{position:relative;z-index:1;flex:1;min-width:0;max-width:880px}
+.brand{display:flex;align-items:center;gap:13px;margin-bottom:18px}
+.brand img{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:#fff;box-shadow:0 8px 18px rgba(19,34,32,.10)}
+.brand b{color:var(--ink);font-size:20px;font-weight:800;letter-spacing:-.02em}
+.badge{margin-left:8px;padding:5px 10px;border-radius:999px;border:1px solid color-mix(in srgb, var(--accent) 22%, var(--line));background:rgba(255,255,255,.76);color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+h1{color:var(--ink);font-size:54px;line-height:1.05;letter-spacing:-.04em;font-weight:800;margin-bottom:13px}
+h1 em{font-style:normal;color:var(--accent)}
+.sub{max-width:770px;margin-bottom:16px;color:var(--body);font-size:17.5px;line-height:1.5}
+.sub code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;color:var(--ink);background:rgba(15,118,110,.09);padding:1px 5px;border-radius:5px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.chip{padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.8);color:var(--ink);font-size:12.5px;font-weight:650}
+.plans{display:grid;gap:7px;max-width:860px}
+.plan{display:flex;align-items:flex-start;gap:9px;color:var(--body);font-size:13.5px;line-height:1.45}
+.tag{flex:none;margin-top:1px;padding:2px 8px;border-radius:6px;background:color-mix(in srgb, var(--accent) 9%, #ffffff);color:var(--accent);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+.plan.premium .tag{background:var(--accent);color:#fff}
+.visual{position:relative;z-index:1;width:318px;flex:none;display:flex;flex-direction:column;align-items:center;gap:22px}
+.icon-card{position:relative;width:218px;height:218px;display:grid;place-items:center;border-radius:48px;border:1px solid #fff;background:rgba(255,255,255,.72);box-shadow:0 30px 65px rgba(19,34,32,.18);transform:rotate(-4deg)}
+.icon-card img{width:152px;height:152px;object-fit:contain;border-radius:34px}
+.icon-glow{position:absolute;width:270px;height:270px;border-radius:50%;background:color-mix(in srgb, var(--accent-2) 20%, rgba(255,255,255,0));filter:blur(12px);z-index:-1}
+.demo{width:100%;padding:11px 13px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.94);box-shadow:0 10px 22px rgba(19,34,32,.08);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.6;text-align:left}
+.demo span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.demo .dirty{color:var(--muted);text-decoration:line-through}
+.demo .clean{color:var(--accent);font-weight:700;margin-top:2px}
+.demo .arrow{color:var(--accent-2);font-weight:700;margin:3px 0 1px}
+.site{color:var(--muted);font-size:13px;font-weight:700;letter-spacing:.04em}
+.foot{position:absolute;left:76px;bottom:22px;z-index:1;color:var(--muted);font-size:11.5px;font-weight:600;letter-spacing:.02em}
+</style>
+</head>
+<body>
+<div class="tile">
+  <div class="copy">
+    <div class="brand"><img src="icons/icon128.png" alt="" width="42" height="42"><b>LinkClean</b><span class="badge">Chrome &amp; Edge</span></div>
+    <h1>Share the link.<br><em>Not the tracking.</em></h1>
+    <p class="sub">Paste a link and get the same page back without <code>utm_</code>, <code>fbclid</code> or <code>gclid</code> — and with a licence, redirects like <code>l.facebook.com</code> are unpacked to the page they really point at. Everything stays on your device.</p>
+    <div class="chips"><span class="chip">58 tracking parameters</span><span class="chip">Unwrap redirects + AMP</span><span class="chip">Per-site rules</span><span class="chip">Markdown copy</span><span class="chip">Works offline</span></div>
+    <div class="plans">
+      <div class="plan"><span class="tag">Free</span><span>single links, Markdown copy, batch of 10, 10 history entries, TXT export</span></div>
+      <div class="plan premium"><span class="tag">Pro</span><span>redirect + AMP unwrapping, per-site rules, paragraphs with several links, unlimited batch, CSV / JSON</span></div>
+    </div>
+  </div>
+  <div class="visual">
+    <div class="icon-card"><span class="icon-glow" aria-hidden="true"></span><img src="icons/icon128.png" alt="LinkClean" width="152" height="152"></div>
+    <div class="demo">
+      <span class="dirty">?utm_source=news&amp;fbclid=IwAR2x…</span>
+      <span class="arrow">↓</span>
+      <span class="clean">the same page, nothing attached</span>
+    </div>
+    <div class="site">annmax1983.com</div>
+  </div>
+  <div class="foot">Free + optional Pro · Chrome &amp; Edge · No account required</div>
+</div>
+</body>
+</html>

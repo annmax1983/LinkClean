@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinkClean — Privacy Policy</title>
+<meta name="description" content="LinkClean privacy policy: no data collection, no analytics, no tracking. Links are cleaned on your device and never uploaded.">
+<link rel="icon" href="icons/icon128.png">
+<style>
+:root{
+  --accent:#0f766e;
+  --accent-2:#0b4f4a;
+  --bg:#f7fbfa;
+  --surface:#ffffff;
+  --ink:#132220;
+  --body:#4a5c5e;
+  --muted:#7c8b8d;
+  --line:#e2ecea;
+  --tint:#eef7f5;
+  --tint:color-mix(in srgb, var(--accent) 8%, #ffffff);
+  --tint-strong:#dcefeb;
+  --tint-strong:color-mix(in srgb, var(--accent) 14%, #ffffff);
+  --shadow:0 18px 45px rgba(19,34,32,.10);
+  --shadow-soft:0 8px 24px rgba(19,34,32,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{
+  margin:0;
+  color:var(--body);
+  background:radial-gradient(900px 420px at 100% -8%, color-mix(in srgb, var(--accent-2) 12%, #ffffff) 0%, rgba(255,255,255,0) 70%), var(--bg);
+  font-family:"Segoe UI Variable Text","Segoe UI",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img{display:block;max-width:100%}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+button,select{font:inherit}
+[hidden]{display:none !important}
+::selection{background:color-mix(in srgb, var(--accent) 22%, #ffffff);color:var(--ink)}
+:focus-visible{outline:2px solid color-mix(in srgb, var(--accent) 55%, #ffffff);outline-offset:3px}
+.wrap{width:min(1120px, calc(100% - 40px));margin:0 auto}
+.topbar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.topbar-inner{display:flex;align-items:center;gap:18px;height:70px}
+.brand{display:flex;align-items:center;gap:11px;color:var(--ink);font-size:16px;font-weight:750;letter-spacing:-.015em;white-space:nowrap}
+.brand:hover{text-decoration:none}
+.brand img{width:32px;height:32px;border-radius:9px;background:#fff;border:1px solid var(--line)}
+.top-actions{display:flex;align-items:center;gap:9px;margin-left:auto}
+.icon-btn{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--muted)}
+.icon-btn:hover{color:var(--accent);border-color:color-mix(in srgb, var(--accent) 26%, var(--line));text-decoration:none}
+.lang{
+  appearance:none;-webkit-appearance:none;
+  border:1px solid var(--line);
+  background-color:#fff;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238d878c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 10px center;
+  background-size:12px;
+  color:var(--ink);
+  border-radius:10px;
+  padding:9px 32px 9px 11px;
+  font-size:13px;
+  font-weight:600;
+  cursor:pointer;
+  max-width:150px;
+}
+.lang:hover{border-color:color-mix(in srgb, var(--accent) 26%, var(--line))}
+.site-footer{margin-top:48px;border-top:1px solid var(--line);background:rgba(255,255,255,.8);padding:32px 0}
+.footer-inner{display:flex;flex-wrap:wrap;gap:20px 32px;align-items:center;justify-content:space-between}
+.footer-brand{display:flex;align-items:center;gap:11px;color:var(--ink);font-size:14px;font-weight:700}
+.footer-brand img{width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:#fff}
+.footer-brand .copy{display:block;color:var(--muted);font-size:12px;font-weight:500;line-height:1.4;margin-top:1px}
+.footer-links{display:flex;flex-wrap:wrap;gap:9px 18px;align-items:center;font-size:13px;font-weight:600}
+.footer-links a{color:var(--muted)}
+.footer-links a:hover{color:var(--accent);text-decoration:none}
+@media (max-width:900px){
+  .topbar-inner{height:62px}
+  .wrap{width:calc(100% - 32px)}
+}
+@media (max-width:560px){
+  .brand span{display:none}
+  .lang{max-width:124px}
+  .site-footer{padding:26px 0}
+  .footer-inner{align-items:flex-start;flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none !important;animation:none !important}
+}
+
+.policy-hero{padding:42px 0 8px}
+.policy-hero-card{position:relative;overflow:hidden;background:linear-gradient(135deg,#ffffff 0%, color-mix(in srgb, var(--accent) 7%, #ffffff) 58%, color-mix(in srgb, var(--accent-2) 16%, #ffffff) 100%);border:1px solid var(--line);border-radius:26px;padding:42px 46px 36px;box-shadow:var(--shadow)}
+.policy-hero-card::after{content:"";position:absolute;width:360px;height:360px;right:-110px;top:-160px;border-radius:50%;border:1px solid color-mix(in srgb, var(--accent) 22%, #ffffff);box-shadow:0 0 0 48px color-mix(in srgb, var(--accent) 5%, transparent);pointer-events:none}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;background:rgba(255,255,255,.72);border:1px solid color-mix(in srgb, var(--accent) 22%, var(--line));color:var(--accent);font-size:11.5px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+.policy-hero h1{position:relative;z-index:1;margin:16px 0 0;color:var(--ink);font-size:clamp(34px,4.4vw,50px);line-height:1.06;letter-spacing:-.035em;font-weight:800}
+.policy-hero h1 .h1-sub{color:var(--accent);font-weight:780}
+.summary{position:relative;z-index:1;max-width:860px;margin:16px 0 20px;color:var(--body);font-size:15.5px;line-height:1.75}
+.summary strong{color:var(--ink);font-weight:700}
+.chips{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.8);color:var(--ink);font-size:12.5px;font-weight:650}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent-2)}
+.updated{position:relative;z-index:1;display:flex;align-items:center;gap:7px;margin:18px 0 0;color:var(--muted);font-size:12.5px;font-weight:550}
+.updated svg{color:var(--accent)}
+.policy-layout{display:grid;grid-template-columns:272px minmax(0,1fr);gap:28px;align-items:start;padding:32px 0 38px}
+.toc{position:sticky;top:92px;max-height:calc(100vh - 120px);overflow:auto;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 17px;box-shadow:var(--shadow-soft)}
+.toc-title{margin:2px 0 12px;color:var(--ink);font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+#p-toc{display:grid;gap:3px}
+#p-toc a{display:grid;grid-template-columns:26px minmax(0,1fr);gap:8px;align-items:baseline;padding:8px 10px;border-radius:10px;border:1px solid transparent;color:var(--muted);font-size:14px;line-height:1.45}
+#p-toc a span{color:color-mix(in srgb, var(--accent) 58%, var(--muted));font-size:11.5px;font-weight:800;letter-spacing:.04em}
+#p-toc a:hover{background:var(--tint);color:var(--ink);text-decoration:none}
+#p-toc a.active{background:var(--tint);border-color:color-mix(in srgb, var(--accent) 18%, var(--line));color:var(--ink)}
+#p-toc a.active span{color:var(--accent)}
+.policy-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px 32px;box-shadow:var(--shadow-soft)}
+.policy-card + .policy-card{margin-top:15px}
+.policy-card h2{display:flex;align-items:baseline;gap:11px;margin:0 0 16px;color:var(--ink);font-size:21px;line-height:1.3;letter-spacing:-.015em;font-weight:760}
+.policy-num{flex:none;padding:4px 8px;border-radius:8px;background:var(--tint);color:var(--accent);font-size:11.5px;font-weight:800;letter-spacing:.04em}
+.policy-body{color:var(--body);font-size:15px;line-height:1.75;overflow-wrap:anywhere}
+.policy-body p{margin:0 0 14px}
+.policy-body p:last-child{margin-bottom:0}
+.policy-body strong{color:var(--ink);font-weight:700}
+.policy-body em{color:var(--body)}
+.policy-body a{color:var(--accent);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+.policy-body a:hover{color:color-mix(in srgb, var(--accent) 80%, var(--ink))}
+.policy-body code{display:inline;padding:1px 6px;border:1px solid var(--line);border-radius:6px;background:#faf3f3;color:var(--ink);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em}
+.policy-body ul{display:grid;gap:8px;margin:0 0 15px;padding:0;list-style:none}
+.policy-body ul:last-child{margin-bottom:0}
+.policy-body li{position:relative;padding-left:21px}
+.policy-body li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--accent-2)}
+.policy-body h3{margin:21px 0 8px;color:var(--ink);font-size:15.5px;line-height:1.4;font-weight:750}
+.policy-body h3:first-child{margin-top:0}
+.policy-body .note{margin:15px 0 0;padding:13px 15px;border-left:3px solid var(--accent);border-radius:10px;background:var(--tint);color:var(--body);font-size:13.5px;line-height:1.65}
+.table-wrap{margin:15px 0;overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+.policy-body table{width:100%;min-width:480px;border-collapse:collapse;font-size:13.5px;line-height:1.55}
+.policy-body th{padding:10px 13px;border-bottom:1px solid var(--line);background:#faf3f3;color:var(--ink);text-align:left;font-weight:700}
+.policy-body td{padding:10px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+.policy-body th:first-child,.policy-body td:first-child{min-width:150px}
+.policy-body tr:last-child td{border-bottom:none}
+.policy-body table code{white-space:nowrap}
+@media (max-width:900px){
+  .policy-hero{padding:26px 0 4px}
+  .policy-hero-card{padding:30px 24px 28px;border-radius:22px}
+  .policy-layout{grid-template-columns:1fr;gap:16px;padding:22px 0 30px}
+  .toc{position:static;max-height:none;padding:14px}
+  #p-toc{grid-template-columns:1fr 1fr}
+  .policy-card{padding:23px 20px}
+  .policy-card h2{font-size:19px}
+}
+@media (max-width:600px){
+  #p-toc{grid-template-columns:1fr}
+  .policy-card{padding:21px 17px}
+  .policy-body{font-size:14.5px}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html"><img src="icons/icon128.png" alt="" width="32" height="32"><span>LinkClean</span></a>
+    <div class="top-actions">
+      <select class="lang" id="p-lang" aria-label="Language"><option value="en">English</option><option value="zh">简体中文</option><option value="ja">日本語</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option></select>
+      <a class="icon-btn" href="index.html" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v10h12V10"/></svg></a>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="policy-hero">
+    <div class="wrap">
+      <div class="policy-hero-card">
+        <span class="eyebrow" id="p-eyebrow">Privacy Policy</span>
+        <h1><span id="p-h1">LinkClean</span> <span class="h1-sub" id="p-h1-sub">Privacy Policy</span></h1>
+        <p class="summary" id="p-summary">LinkClean does NOT collect, store, or transmit your links, your browsing data or any personal information. Every rule runs inside your browser: no redirect is fetched, no link is uploaded, and cleaning, rules and history work offline. The only network request the extension makes is the optional Pro licence check described in Section 4.</p>
+        <div class="chips" id="p-chips"><span class="chip">Links stay on your device</span><span class="chip">No analytics</span><span class="chip">No account</span><span class="chip">Licence optional</span></div>
+        <p class="updated"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span id="p-updated">Last updated: November 2026</span></p>
+      </div>
+    </div>
+  </section>
+  <div class="wrap policy-layout">
+    <aside class="toc">
+      <p class="toc-title" id="p-toc-title">On this page</p>
+      <nav id="p-toc" aria-label="On this page">
+<a href="#section-1"><span>01</span>Data Collection</a><a href="#section-2"><span>02</span>How LinkClean Works</a><a href="#section-3"><span>03</span>Permissions Explained</a><a href="#section-4"><span>04</span>Third-Party Services & Licence Verification</a><a href="#section-5"><span>05</span>Data Sharing</a><a href="#section-6"><span>06</span>Data Retention & Deletion</a><a href="#section-7"><span>07</span>Children's Privacy</a><a href="#section-8"><span>08</span>Changes to This Policy</a><a href="#section-9"><span>09</span>Contact</a>
+      </nav>
+    </aside>
+    <div id="p-sections">
+<article class="policy-card" id="section-1"><h2><span class="policy-num">01</span>Data Collection</h2><div class="policy-body"><p>LinkClean does not collect personal information, browsing history, page content or usage analytics. There are no cookies, no tracking pixels, no fingerprinting and no telemetry of any kind. The links you clean are processed in the popup and, if you keep a history, stored only in this browser's local extension storage.</p></div></article><article class="policy-card" id="section-2"><h2><span class="policy-num">02</span>How LinkClean Works</h2><div class="policy-body"><p>Everything happens inside your browser:</p><ul><li>Input — you paste a URL, press Paste to read the clipboard, or pull the URL of the tab you are on.</li><li>Cleaning — the URL is parsed with the browser's own URL API, tracking parameters are matched against 58 built-in names and 11 prefix families plus any rules you added, and the result is rebuilt.</li><li>Redirects — a wrapper link (l.facebook.com, google.com/url, out.reddit.com and 15 other shapes) is unpacked by reading the target out of the URL itself. The redirect is never requested, so the destination site does not learn that you looked at it.</li><li>Output — the clean URL, a Markdown link, a text or CSV export, or an entry in your local history.</li></ul><div class="note">No link, URL or page content is ever sent to a server, including ours.</div></div></article><article class="policy-card" id="section-3"><h2><span class="policy-num">03</span>Permissions Explained</h2><div class="policy-body"><div class="table-wrap"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Settings, custom rules, history and licence state on this device</td></tr><tr><td><code>activeTab</code></td><td>Read the URL of the page you are on, and only after you click the icon</td></tr><tr><td><code>clipboardWrite</code></td><td>Copy the clean link when you press a copy button or enable auto-copy</td></tr><tr><td><code>clipboardRead</code></td><td>Read the clipboard when you press Paste, and never in the background</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>Licence activation and checks only — never a link</td></tr></tbody></table></div><div class="note">There is no content script, no &lt;all_urls&gt; host access, no tabs permission and no downloads permission. LinkClean cannot see the text of any page.</div></div></article><article class="policy-card" id="section-4"><h2><span class="policy-num">04</span>Third-Party Services & Licence Verification</h2><div class="policy-body"><p>Free features make no network request at all. With a Pro licence, the extension contacts our licence server (api.annmax1983.com) only to activate the key, to re-verify it at most once every two hours when you open the popup, and to release it. Those requests carry the licence key, a random installation identifier, the plugin id and basic browser metadata (browser name and version, interface language, time zone, user agent) — never a link, a page address or your history. Our licence server records the IP address of these requests solely for rate limiting and abuse prevention, never for profiling, advertising or sharing.</p><p>If the check fails, nothing is locked: the cached licence keeps working offline.</p></div></article><article class="policy-card" id="section-5"><h2><span class="policy-num">05</span>Data Sharing</h2><div class="policy-body"><p>We do not share, sell, rent or trade any data with third parties, because we do not collect any.</p></div></article><article class="policy-card" id="section-6"><h2><span class="policy-num">06</span>Data Retention & Deletion</h2><div class="policy-body"><p>History, settings, custom rules and counters live in this browser's local extension storage. Clear the history from the popup, or remove the extension, and the data is gone with it — there is no copy anywhere else. Export a rules bundle or the history JSON first if you want to keep something.</p></div></article><article class="policy-card" id="section-7"><h2><span class="policy-num">07</span>Children's Privacy</h2><div class="policy-body"><p>LinkClean does not collect personal information from any user, including children under the age of 13.</p></div></article><article class="policy-card" id="section-8"><h2><span class="policy-num">08</span>Changes to This Policy</h2><div class="policy-body"><p>If this policy changes, the revised version is published on this page with a new date. Material changes are noted in the extension's release notes.</p></div></article><article class="policy-card" id="section-9"><h2><span class="policy-num">09</span>Contact</h2><div class="policy-body"><p>Questions about this policy? Email <a href="mailto:support@annmax1983.com">support@annmax1983.com</a>.</p></div></article>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="icons/icon128.png" alt="" width="30" height="30">
+      <div>LinkClean<span class="copy">© 2026 LinkClean</span></div>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="index.html" id="p-footer-home">Home</a>
+      <a href="privacy-policy.html" id="p-footer-privacy">Privacy Policy</a>
+      <a href="https://annmax1983.com/extensions/linkclean" target="_blank" rel="noopener" id="p-footer-site">Website</a>
+      <a href="mailto:support@annmax1983.com" id="p-footer-email">Email</a>
+    </nav>
+  </div>
+</footer>
+<script>
+const MODEL = {"langs":{"en":{"summary":"LinkClean does NOT collect, store, or transmit your links, your browsing data or any personal information. Every rule runs inside your browser: no redirect is fetched, no link is uploaded, and cleaning, rules and history work offline. The only network request the extension makes is the optional Pro licence check described in Section 4.","sections":[{"t":"Data Collection","html":"<p>LinkClean does not collect personal information, browsing history, page content or usage analytics. There are no cookies, no tracking pixels, no fingerprinting and no telemetry of any kind. The links you clean are processed in the popup and, if you keep a history, stored only in this browser's local extension storage.</p>"},{"t":"How LinkClean Works","html":"<p>Everything happens inside your browser:</p><ul><li>Input — you paste a URL, press Paste to read the clipboard, or pull the URL of the tab you are on.</li><li>Cleaning — the URL is parsed with the browser's own URL API, tracking parameters are matched against 58 built-in names and 11 prefix families plus any rules you added, and the result is rebuilt.</li><li>Redirects — a wrapper link (l.facebook.com, google.com/url, out.reddit.com and 15 other shapes) is unpacked by reading the target out of the URL itself. The redirect is never requested, so the destination site does not learn that you looked at it.</li><li>Output — the clean URL, a Markdown link, a text or CSV export, or an entry in your local history.</li></ul><div class=\"note\">No link, URL or page content is ever sent to a server, including ours.</div>"},{"t":"Permissions Explained","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Settings, custom rules, history and licence state on this device</td></tr><tr><td><code>activeTab</code></td><td>Read the URL of the page you are on, and only after you click the icon</td></tr><tr><td><code>clipboardWrite</code></td><td>Copy the clean link when you press a copy button or enable auto-copy</td></tr><tr><td><code>clipboardRead</code></td><td>Read the clipboard when you press Paste, and never in the background</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>Licence activation and checks only — never a link</td></tr></tbody></table></div><div class=\"note\">There is no content script, no &lt;all_urls&gt; host access, no tabs permission and no downloads permission. LinkClean cannot see the text of any page.</div>"},{"t":"Third-Party Services & Licence Verification","html":"<p>Free features make no network request at all. With a Pro licence, the extension contacts our licence server (api.annmax1983.com) only to activate the key, to re-verify it at most once every two hours when you open the popup, and to release it. Those requests carry the licence key, a random installation identifier, the plugin id and basic browser metadata (browser name and version, interface language, time zone, user agent) — never a link, a page address or your history. Our licence server records the IP address of these requests solely for rate limiting and abuse prevention, never for profiling, advertising or sharing.</p><p>If the check fails, nothing is locked: the cached licence keeps working offline.</p>"},{"t":"Data Sharing","html":"<p>We do not share, sell, rent or trade any data with third parties, because we do not collect any.</p>"},{"t":"Data Retention & Deletion","html":"<p>History, settings, custom rules and counters live in this browser's local extension storage. Clear the history from the popup, or remove the extension, and the data is gone with it — there is no copy anywhere else. Export a rules bundle or the history JSON first if you want to keep something.</p>"},{"t":"Children's Privacy","html":"<p>LinkClean does not collect personal information from any user, including children under the age of 13.</p>"},{"t":"Changes to This Policy","html":"<p>If this policy changes, the revised version is published on this page with a new date. Material changes are noted in the extension's release notes.</p>"},{"t":"Contact","html":"<p>Questions about this policy? Email <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a>.</p>"}]},"zh":{"summary":"LinkClean 不收集、不存储、不传输你的链接、浏览数据或任何个人信息。所有规则都在浏览器内运行：不会为了知道跳转去哪而请求目标地址，链接不上传，净化、规则与历史完全离线可用。唯一的网络请求是第 4 节说明的可选 Pro 授权校验。","sections":[{"t":"数据收集","html":"<p>LinkClean 不收集个人信息、浏览历史、页面内容或使用统计。没有 Cookie、没有追踪像素、没有指纹识别，也没有任何形式的遥测。你清理的链接在弹窗内处理；如果你保留历史，它只存在本浏览器的扩展本地存储里。</p>"},{"t":"LinkClean 怎么工作","html":"<p>全部在你的浏览器里完成：</p><ul><li>输入——你粘贴网址、点「粘贴」读剪贴板，或者取当前标签页的地址。</li><li>净化——用浏览器自带的 URL 接口解析地址，把参数与 58 个内置参数名、11 个前缀系列以及你自己加的规则逐一比对，然后重建结果。</li><li>跳转——遇到 l.facebook.com、google.com/url、out.reddit.com 等 18 种外壳时，目标地址是从链接本身解出来的，绝不会真的去请求那个跳转，所以目标站点不知道你看过它。</li><li>输出——干净网址、Markdown 链接、TXT / CSV 导出，或者一条本地历史。</li></ul><div class=\"note\">任何链接、网址或页面内容都不会发送到服务器，包括我们自己的。</div>"},{"t":"权限说明","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>在本机保存设置、自定义规则、历史与授权状态</td></tr><tr><td><code>activeTab</code></td><td>读取你所在页面的地址，且只在你点击图标之后</td></tr><tr><td><code>clipboardWrite</code></td><td>在你点复制或开启自动复制时，把干净链接写入剪贴板</td></tr><tr><td><code>clipboardRead</code></td><td>只在你点「粘贴」时读剪贴板，绝不在后台读取</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>仅用于授权激活与校验，从不传输链接</td></tr></tbody></table></div><div class=\"note\">没有内容脚本，没有 &lt;all_urls&gt; 站点权限，没有 tabs 权限，也没有 downloads 权限。LinkClean 看不到任何页面的文字。</div>"},{"t":"第三方服务与授权校验","html":"<p>免费功能完全不联网。持有 Pro 授权时，扩展只会为三件事联系授权服务器（api.annmax1983.com）：激活授权码、打开弹窗时最多每两小时复核一次、以及释放授权。请求携带授权码、一个随机安装标识、插件 id 和基础浏览器信息（名称与版本、界面语言、时区、User-Agent）——绝不包含链接、页面地址或你的历史。服务器仅出于限流与防滥用记录请求的 IP，不做画像、不投放广告、不对外共享。</p><p>校验失败不会锁住任何功能：缓存里的授权离线照常工作。</p>"},{"t":"数据共享","html":"<p>我们不共享、不售卖、不出租、不交换任何数据——因为我们根本不收集。</p>"},{"t":"数据保存与删除","html":"<p>历史、设置、自定义规则与计数都存在本浏览器的扩展本地存储中。在弹窗里清空历史，或卸载扩展，数据就随之消失，别处没有副本。想留档的话，先把规则包或历史 JSON 导出。</p>"},{"t":"儿童隐私","html":"<p>LinkClean 不向任何用户收集个人信息，包括 13 岁以下的儿童。</p>"},{"t":"政策变更","html":"<p>本政策如有修改，修订版本会带新日期发布在本页；重要变更会在扩展的更新说明中标注。</p>"},{"t":"联系方式","html":"<p>对本政策有疑问？发邮件到 <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a>。</p>"}]},"ja":{"summary":"LinkClean は、あなたのリンク、閲覧データ、その他の個人情報を収集・保存・送信しません。すべてのルールはブラウザ内で動作します。リダイレクト先を取得することはなく、リンクはアップロードされず、クリーニング・ルール・履歴はオフラインで完結します。ネットワーク通信は、第 4 節に記載する任意の Pro ライセンス確認のみです。","sections":[{"t":"データの収集","html":"<p>LinkClean は個人情報、閲覧履歴、ページ内容、利用統計を収集しません。Cookie も、追跡ピクセルも、フィンガープリントも、いかなるテレメトリもありません。クリーニングしたリンクはポップアップ内で処理され、履歴を残す場合もこのブラウザの拡張機能ローカルストレージにのみ保存されます。</p>"},{"t":"LinkClean の仕組み","html":"<p>すべてブラウザ内で完結します：</p><ul><li>入力 — URL を貼り付ける、「貼り付け」でクリップボードを読む、または現在のタブの URL を取り込みます。</li><li>クリーニング — ブラウザ標準の URL API で解析し、パラメータを 58 個の組み込み名・11 個のプレフィックス系列・追加したルールと照合して再構築します。</li><li>リダイレクト — l.facebook.com、google.com/url、out.reddit.com など 18 種の外殻は、リンク自体から宛先を取り出して展開します。リダイレクトを実際に取得しないため、遷移先のサイトにあなたの訪問は伝わりません。</li><li>出力 — きれいな URL、Markdown リンク、TXT / CSV 書き出し、またはローカル履歴。</li></ul><div class=\"note\">リンク、URL、ページ内容がサーバー（当方のものを含む）へ送信されることはありません。</div>"},{"t":"権限の説明","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>設定、カスタムルール、履歴、ライセンス状態を端末内に保存</td></tr><tr><td><code>activeTab</code></td><td>アイコンをクリックした後に限り、現在のページの URL を読む</td></tr><tr><td><code>clipboardWrite</code></td><td>コピー操作や自動コピーが有効なときにきれいなリンクを書き込む</td></tr><tr><td><code>clipboardRead</code></td><td>「貼り付け」を押したときだけクリップボードを読む（バックグラウンドでは読まない）</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>ライセンスの有効化と確認のみ。リンクは送信しません</td></tr></tbody></table></div><div class=\"note\">コンテンツスクリプトはなく、&lt;all_urls&gt; のホスト権限も、tabs 権限も、downloads 権限もありません。LinkClean はどのページの本文も見られません。</div>"},{"t":"第三者サービスとライセンス確認","html":"<p>無料機能は一切通信しません。Pro ライセンスがある場合、拡張機能がライセンスサーバー（api.annmax1983.com）へ接続するのは、キーの有効化、ポップアップを開いた際の最大 2 時間おきの再確認、そして解放のときだけです。送信内容はライセンスキー、ランダムなインストール識別子、プラグイン id、基本的なブラウザ情報（名称とバージョン、UI 言語、タイムゾーン、ユーザーエージェント）で、リンクやページアドレス、履歴は含まれません。サーバーはレート制限と不正利用防止のためだけに IP アドレスを記録し、プロファイリングや広告、第三者提供には使いません。</p><p>確認に失敗してもロックされません。キャッシュされたライセンスでオフラインのまま動作します。</p>"},{"t":"データの共有","html":"<p>そもそも収集していないため、第三者と共有・販売・貸与・交換することはありません。</p>"},{"t":"保存期間と削除","html":"<p>履歴、設定、カスタムルール、カウンターはこのブラウザの拡張機能ローカルストレージにあります。ポップアップから履歴を消すか拡張機能を削除すれば、データも消えます（他の場所に複製はありません）。残したい場合は先にルールセットや履歴 JSON を書き出してください。</p>"},{"t":"子どものプライバシー","html":"<p>LinkClean は 13 歳未満の子どもを含め、いかなる利用者からも個人情報を収集しません。</p>"},{"t":"ポリシーの変更","html":"<p>本ポリシーを変更した場合は、新しい日付を付けて本ページに掲載します。重要な変更は拡張機能のリリースノートにも記載します。</p>"},{"t":"お問い合わせ","html":"<p>本ポリシーについてのご質問は <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a> まで。</p>"}]},"de":{"summary":"LinkClean erhebt, speichert und überträgt weder Ihre Links noch Ihre Browserdaten oder sonstige personenbezogene Informationen. Jede Regel läuft im Browser: Es wird keine Weiterleitung abgerufen, kein Link hochgeladen, und Bereinigen, Regeln und Verlauf funktionieren offline. Die einzige Netzwerkanfrage ist die optionale Pro-Lizenzprüfung aus Abschnitt 4.","sections":[{"t":"Datenerhebung","html":"<p>LinkClean erhebt keine personenbezogenen Daten, keinen Browserverlauf, keine Seiteninhalte und keine Nutzungsstatistiken. Es gibt keine Cookies, keine Tracking-Pixel, kein Fingerprinting und keinerlei Telemetrie. Die bereinigten Links werden im Popup verarbeitet und, wenn Sie einen Verlauf führen, ausschließlich im lokalen Erweiterungsspeicher dieses Browsers gespeichert.</p>"},{"t":"So funktioniert LinkClean","html":"<p>Alles geschieht in Ihrem Browser:</p><ul><li>Eingabe — Sie fügen eine URL ein, drücken „Einfügen“ für die Zwischenablage oder übernehmen die URL des aktuellen Tabs.</li><li>Bereinigen — die URL wird mit der URL-API des Browsers geparst, Parameter werden gegen 58 eingebaute Namen, 11 Präfix-Familien und Ihre eigenen Regeln geprüft, dann wird das Ergebnis neu zusammengesetzt.</li><li>Weiterleitungen — ein Wrapper (l.facebook.com, google.com/url, out.reddit.com und 15 weitere Formen) wird entpackt, indem das Ziel aus der URL selbst gelesen wird. Die Weiterleitung wird nie abgerufen, die Zielseite erfährt also nichts von Ihrem Besuch.</li><li>Ausgabe — saubere URL, Markdown-Link, TXT-/CSV-Export oder ein Eintrag im lokalen Verlauf.</li></ul><div class=\"note\">Kein Link, keine URL und kein Seiteninhalt wird jemals an einen Server gesendet, auch nicht an unseren.</div>"},{"t":"Berechtigungen erklärt","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Einstellungen, eigene Regeln, Verlauf und Lizenzstatus auf diesem Gerät</td></tr><tr><td><code>activeTab</code></td><td>Die URL der aktuellen Seite lesen — erst nachdem Sie auf das Symbol geklickt haben</td></tr><tr><td><code>clipboardWrite</code></td><td>Den sauberen Link kopieren, wenn Sie kopieren oder die automatische Kopie aktiviert haben</td></tr><tr><td><code>clipboardRead</code></td><td>Die Zwischenablage nur beim Drücken von „Einfügen“ lesen, nie im Hintergrund</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>Nur Lizenzaktivierung und -prüfung — niemals ein Link</td></tr></tbody></table></div><div class=\"note\">Es gibt kein Content-Skript, keinen &lt;all_urls&gt;-Hostzugriff, keine tabs- und keine downloads-Berechtigung. LinkClean kann den Text keiner Seite sehen.</div>"},{"t":"Drittanbieter & Lizenzprüfung","html":"<p>Kostenlose Funktionen stellen keine Netzwerkanfrage. Mit einer Pro-Lizenz kontaktiert die Erweiterung unseren Lizenzserver (api.annmax1983.com) nur, um den Schlüssel zu aktivieren, ihn beim Öffnen des Popups höchstens alle zwei Stunden erneut zu prüfen und ihn freizugeben. Diese Anfragen enthalten den Lizenzschlüssel, eine zufällige Installationskennung, die Plugin-ID und grundlegende Browser-Metadaten (Name und Version, Oberflächensprache, Zeitzone, User-Agent) — niemals einen Link, eine Seitenadresse oder Ihren Verlauf. Der Server speichert die IP-Adresse ausschließlich zur Ratenbegrenzung und Missbrauchsabwehr, nicht für Profiling, Werbung oder Weitergabe.</p><p>Schlägt die Prüfung fehl, wird nichts gesperrt: Die zwischengespeicherte Lizenz funktioniert offline weiter.</p>"},{"t":"Datenweitergabe","html":"<p>Wir geben keine Daten weiter, verkaufen, vermieten oder tauschen sie — weil wir keine erheben.</p>"},{"t":"Speicherdauer & Löschung","html":"<p>Verlauf, Einstellungen, eigene Regeln und Zähler liegen im lokalen Erweiterungsspeicher dieses Browsers. Leeren Sie den Verlauf im Popup oder entfernen Sie die Erweiterung, sind die Daten weg — anderswo existiert keine Kopie. Exportieren Sie vorher ein Regelpaket oder den Verlauf als JSON, wenn Sie etwas behalten möchten.</p>"},{"t":"Datenschutz für Kinder","html":"<p>LinkClean erhebt von keinem Nutzer personenbezogene Daten, auch nicht von Kindern unter 13 Jahren.</p>"},{"t":"Änderungen dieser Erklärung","html":"<p>Änderungen werden mit neuem Datum auf dieser Seite veröffentlicht. Wesentliche Änderungen stehen zusätzlich in den Release-Notes der Erweiterung.</p>"},{"t":"Kontakt","html":"<p>Fragen zu dieser Erklärung? Schreiben Sie an <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a>.</p>"}]},"es":{"summary":"LinkClean NO recopila, almacena ni transmite tus enlaces, tus datos de navegación ni ninguna información personal. Todas las reglas se ejecutan dentro del navegador: no se descarga ninguna redirección, no se sube ningún enlace, y limpiar, las reglas y el historial funcionan sin conexión. La única petición de red es la comprobación opcional de licencia Pro descrita en la sección 4.","sections":[{"t":"Recogida de datos","html":"<p>LinkClean no recopila información personal, historial de navegación, contenido de páginas ni estadísticas de uso. No hay cookies, ni píxeles de seguimiento, ni fingerprinting, ni telemetría de ningún tipo. Los enlaces que limpias se procesan en el panel y, si mantienes un historial, se guardan solo en el almacenamiento local de la extensión en este navegador.</p>"},{"t":"Cómo funciona LinkClean","html":"<p>Todo ocurre dentro de tu navegador:</p><ul><li>Entrada — pegas una URL, pulsas Pegar para leer el portapapeles o tomas la URL de la pestaña actual.</li><li>Limpieza — la URL se analiza con la API URL del navegador, los parámetros se comparan con 58 nombres integrados, 11 familias de prefijos y tus propias reglas, y el resultado se reconstruye.</li><li>Redirecciones — un envoltorio (l.facebook.com, google.com/url, out.reddit.com y otras 15 formas) se desarma leyendo el destino de la propia URL. Nunca se solicita la redirección, así que el sitio de destino no sabe que lo miraste.</li><li>Salida — URL limpia, enlace Markdown, exportación TXT o CSV, o una entrada en tu historial local.</li></ul><div class=\"note\">Ningún enlace, URL o contenido de página se envía jamás a un servidor, tampoco al nuestro.</div>"},{"t":"Permisos explicados","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Ajustes, reglas propias, historial y estado de licencia en este dispositivo</td></tr><tr><td><code>activeTab</code></td><td>Leer la URL de la página actual, y solo después de que pulses el icono</td></tr><tr><td><code>clipboardWrite</code></td><td>Copiar el enlace limpio cuando pulsas copiar o activas la copia automática</td></tr><tr><td><code>clipboardRead</code></td><td>Leer el portapapeles solo al pulsar Pegar, nunca en segundo plano</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>Solo activación y comprobación de licencia; nunca un enlace</td></tr></tbody></table></div><div class=\"note\">No hay content script, ni acceso a &lt;all_urls&gt;, ni permiso tabs, ni permiso downloads. LinkClean no puede ver el texto de ninguna página.</div>"},{"t":"Terceros y verificación de licencia","html":"<p>Las funciones gratuitas no hacen ninguna petición de red. Con una licencia Pro, la extensión contacta con nuestro servidor (api.annmax1983.com) solo para activar la clave, reverificarla como máximo cada dos horas al abrir el panel y liberarla. Esas peticiones llevan la clave, un identificador de instalación aleatorio, el id del plugin y metadatos básicos del navegador (nombre y versión, idioma de la interfaz, zona horaria, user agent) — nunca un enlace, una dirección de página ni tu historial. El servidor registra la IP únicamente para limitar la tasa y evitar abusos, nunca para perfilado, publicidad o cesión.</p><p>Si la comprobación falla no se bloquea nada: la licencia en caché sigue funcionando sin conexión.</p>"},{"t":"Cesión de datos","html":"<p>No compartimos, vendemos, alquilamos ni intercambiamos datos con terceros, porque no recopilamos ninguno.</p>"},{"t":"Conservación y borrado","html":"<p>El historial, los ajustes, las reglas propias y los contadores viven en el almacenamiento local de la extensión en este navegador. Borra el historial desde el panel o elimina la extensión y los datos desaparecen con ella: no hay copia en ningún otro sitio. Exporta antes un paquete de reglas o el historial en JSON si quieres conservar algo.</p>"},{"t":"Privacidad de menores","html":"<p>LinkClean no recopila información personal de ningún usuario, incluidos los menores de 13 años.</p>"},{"t":"Cambios en esta política","html":"<p>Si esta política cambia, la versión revisada se publica en esta página con nueva fecha. Los cambios relevantes se anotan en las notas de la versión de la extensión.</p>"},{"t":"Contacto","html":"<p>¿Dudas sobre esta política? Escribe a <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a>.</p>"}]},"fr":{"summary":"LinkClean ne collecte, ne stocke et ne transmet ni vos liens, ni vos données de navigation, ni aucune information personnelle. Toutes les règles s'exécutent dans le navigateur : aucune redirection n'est téléchargée, aucun lien n'est envoyé, et le nettoyage, les règles et l'historique fonctionnent hors ligne. La seule requête réseau est la vérification facultative de licence Pro décrite à la section 4.","sections":[{"t":"Collecte de données","html":"<p>LinkClean ne collecte aucune information personnelle, aucun historique de navigation, aucun contenu de page et aucune statistique d'usage. Pas de cookies, pas de pixels de suivi, pas d'empreinte numérique, aucune télémétrie. Les liens nettoyés sont traités dans le panneau et, si vous gardez un historique, stockés uniquement dans le stockage local de l'extension, dans ce navigateur.</p>"},{"t":"Comment fonctionne LinkClean","html":"<p>Tout se passe dans votre navigateur :</p><ul><li>Entrée — vous collez une URL, appuyez sur Coller pour lire le presse-papiers, ou reprenez l'URL de l'onglet courant.</li><li>Nettoyage — l'URL est analysée avec l'API URL du navigateur, les paramètres sont comparés à 58 noms intégrés, 11 familles de préfixes et vos propres règles, puis le résultat est reconstruit.</li><li>Redirections — une enveloppe (l.facebook.com, google.com/url, out.reddit.com et 15 autres formes) est démontée en lisant la cible dans l'URL elle-même. La redirection n'est jamais demandée : le site de destination ne sait donc pas que vous l'avez regardé.</li><li>Sortie — URL propre, lien Markdown, export TXT ou CSV, ou une entrée d'historique locale.</li></ul><div class=\"note\">Aucun lien, aucune URL et aucun contenu de page n'est jamais envoyé à un serveur, y compris le nôtre.</div>"},{"t":"Autorisations expliquées","html":"<div class=\"table-wrap\"><table><thead><tr><th>PERM_HEAD</th><th>PURPOSE_HEAD</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Réglages, règles personnalisées, historique et état de licence sur cet appareil</td></tr><tr><td><code>activeTab</code></td><td>Lire l'URL de la page courante, et seulement après un clic sur l'icône</td></tr><tr><td><code>clipboardWrite</code></td><td>Copier le lien propre quand vous copiez ou activez la copie automatique</td></tr><tr><td><code>clipboardRead</code></td><td>Lire le presse-papiers uniquement quand vous appuyez sur Coller, jamais en arrière-plan</td></tr><tr><td><code>https://api.annmax1983.com/*</code></td><td>Activation et vérification de licence uniquement — jamais un lien</td></tr></tbody></table></div><div class=\"note\">Pas de content script, pas d'accès &lt;all_urls&gt;, pas d'autorisation tabs, pas d'autorisation downloads. LinkClean ne peut voir le texte d'aucune page.</div>"},{"t":"Services tiers et vérification de licence","html":"<p>Les fonctions gratuites n'émettent aucune requête réseau. Avec une licence Pro, l'extension contacte notre serveur (api.annmax1983.com) uniquement pour activer la clé, la revérifier au plus une fois toutes les deux heures à l'ouverture du panneau, et la libérer. Ces requêtes portent la clé, un identifiant d'installation aléatoire, l'id du plugin et des métadonnées de navigateur basiques (nom et version, langue de l'interface, fuseau horaire, user agent) — jamais un lien, une adresse de page ou votre historique. Le serveur enregistre l'adresse IP uniquement pour limiter le débit et prévenir les abus, jamais pour du profilage, de la publicité ou un partage.</p><p>En cas d'échec, rien n'est verrouillé : la licence en cache continue de fonctionner hors ligne.</p>"},{"t":"Partage de données","html":"<p>Nous ne partageons, ne vendons, ne louons et n'échangeons aucune donnée avec des tiers, parce que nous n'en collectons aucune.</p>"},{"t":"Conservation et suppression","html":"<p>L'historique, les réglages, les règles personnalisées et les compteurs vivent dans le stockage local de l'extension, dans ce navigateur. Videz l'historique depuis le panneau ou supprimez l'extension : les données disparaissent avec elle, sans copie ailleurs. Exportez d'abord un paquet de règles ou l'historique en JSON si vous voulez conserver quelque chose.</p>"},{"t":"Confidentialité des enfants","html":"<p>LinkClean ne collecte aucune information personnelle auprès d'aucun utilisateur, y compris les enfants de moins de 13 ans.</p>"},{"t":"Modifications de cette politique","html":"<p>En cas de modification, la version révisée est publiée sur cette page avec une nouvelle date. Les changements importants sont signalés dans les notes de version de l'extension.</p>"},{"t":"Contact","html":"<p>Des questions sur cette politique ? Écrivez à <a href=\"mailto:support@annmax1983.com\">support@annmax1983.com</a>.</p>"}]}}};
+const UI_ALL = {"en":{"privacyTitle":"Privacy Policy","home":"Home","onThisPage":"On this page","lastUpdated":"Last updated: November 2026","chips":["Links stay on your device","No analytics","No account","Licence optional"],"footerHome":"Home","footerSite":"Website","footerEmail":"Email"},"zh":{"privacyTitle":"隐私政策","home":"首页","onThisPage":"本页目录","lastUpdated":"最后更新：2026 年 11 月","chips":["链接留在你的设备上","无统计追踪","无需账号","授权可选"],"footerHome":"首页","footerSite":"官网","footerEmail":"邮件"},"ja":{"privacyTitle":"プライバシーポリシー","home":"ホーム","onThisPage":"目次","lastUpdated":"最終更新：2026年11月","chips":["リンクは端末上に残る","分析なし","アカウント不要","ライセンスは任意"],"footerHome":"ホーム","footerSite":"公式サイト","footerEmail":"メール"},"de":{"privacyTitle":"Datenschutzerklärung","home":"Startseite","onThisPage":"Auf dieser Seite","lastUpdated":"Zuletzt aktualisiert: November 2026","chips":["Links bleiben auf deinem Gerät","Keine Analyse","Kein Konto","Lizenz optional"],"footerHome":"Startseite","footerSite":"Website","footerEmail":"E-Mail"},"es":{"privacyTitle":"Política de privacidad","home":"Inicio","onThisPage":"En esta página","lastUpdated":"Última actualización: noviembre de 2026","chips":["Los enlaces se quedan en tu dispositivo","Sin analíticas","Sin cuenta","Licencia opcional"],"footerHome":"Inicio","footerSite":"Sitio web","footerEmail":"Correo"},"fr":{"privacyTitle":"Politique de confidentialité","home":"Accueil","onThisPage":"Sur cette page","lastUpdated":"Dernière mise à jour : novembre 2026","chips":["Les liens restent sur votre appareil","Aucune analyse","Sans compte","Licence facultative"],"footerHome":"Accueil","footerSite":"Site web","footerEmail":"E-mail"}};
+const CONFIG = {"name":"LinkClean","icon":"icons/icon128.png","site":"https://annmax1983.com/extensions/linkclean"};
+const LANG_KEY = "vkt-linkclean-lang";
+(function () {
+  "use strict";
+
+  var select = document.getElementById("p-lang");
+  var observer = null;
+  var ui = function (lang) { return UI_ALL[lang] || UI_ALL.en; };
+
+  function esc(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function setText(id, value) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = value == null ? "" : value;
+  }
+
+  function detect() {
+    var codes = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < codes.length; i++) {
+      var code = String(codes[i] || "").toLowerCase();
+      if (code.indexOf("zh") === 0) return "zh";
+      if (code.indexOf("ja") === 0) return "ja";
+      if (code.indexOf("de") === 0) return "de";
+      if (code.indexOf("es") === 0) return "es";
+      if (code.indexOf("fr") === 0) return "fr";
+      if (code.indexOf("en") === 0) return "en";
+    }
+    return "en";
+  }
+
+  function initToc() {
+    if (observer) observer.disconnect();
+    var links = Array.prototype.slice.call(document.querySelectorAll("#p-toc a"));
+    var cards = Array.prototype.slice.call(document.querySelectorAll(".policy-card"));
+    if (!links.length || !cards.length || typeof IntersectionObserver === "undefined") return;
+
+    function activate(id) {
+      links.forEach(function (link) {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + id);
+      });
+    }
+
+    observer = new IntersectionObserver(function (entries) {
+      var visible = entries.filter(function (entry) { return entry.isIntersecting; });
+      if (visible.length) activate(visible[0].target.id);
+    }, { rootMargin: "-18% 0px -68% 0px", threshold: [0, 1] });
+
+    cards.forEach(function (card) { observer.observe(card); });
+    if (links[0]) links[0].classList.add("active");
+  }
+
+  function render(lang) {
+    var data = MODEL.langs[lang];
+    if (!data) return;
+    var u = ui(lang);
+
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+    document.title = CONFIG.name + " — " + u.privacyTitle;
+
+    setText("p-eyebrow", u.privacyTitle);
+    setText("p-h1", CONFIG.name);
+    setText("p-h1-sub", u.privacyTitle);
+    setText("p-updated", u.lastUpdated);
+    setText("p-toc-title", u.onThisPage);
+
+    var summary = document.getElementById("p-summary");
+    if (summary) summary.innerHTML = data.summary || "";
+
+    var chips = document.getElementById("p-chips");
+    if (chips) {
+      chips.innerHTML = u.chips.map(function (chip) {
+        return '<span class="chip">' + esc(chip) + "</span>";
+      }).join("");
+    }
+
+    setText("p-footer-home", u.footerHome);
+    setText("p-footer-privacy", u.privacyTitle);
+    setText("p-footer-site", u.footerSite);
+    setText("p-footer-email", u.footerEmail || "Email");
+
+    var toc = document.getElementById("p-toc");
+    var sections = document.getElementById("p-sections");
+    if (!toc || !sections) return;
+    toc.innerHTML = "";
+    sections.innerHTML = "";
+
+    data.sections.forEach(function (section, index) {
+      var number = String(index + 1).padStart(2, "0");
+      var id = "section-" + (index + 1);
+
+      var link = document.createElement("a");
+      link.href = "#" + id;
+      link.innerHTML = "<span>" + number + "</span>" + esc(section.t);
+      toc.appendChild(link);
+
+      var card = document.createElement("article");
+      card.className = "policy-card";
+      card.id = id;
+      card.innerHTML = '<h2><span class="policy-num">' + number + "</span>" + esc(section.t) + '</h2><div class="policy-body">' + section.html + "</div>";
+      sections.appendChild(card);
+    });
+
+    initToc();
+  }
+
+  function storedLang() {
+    try { return localStorage.getItem(LANG_KEY); } catch (error) { return null; }
+  }
+
+  function remember(lang) {
+    try { localStorage.setItem(LANG_KEY, lang); } catch (error) { /* storage can be blocked */ }
+  }
+
+  initToc();
+
+  if (select) {
+    var saved = storedLang();
+    var initial = saved && MODEL.langs[saved] ? saved : detect();
+    if (!MODEL.langs[initial]) initial = "en";
+    select.value = initial;
+    if (initial !== "en") render(initial);
+    select.addEventListener("change", function () {
+      remember(select.value);
+      render(select.value);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+})();
+
+</script>
+</body>
+</html>
