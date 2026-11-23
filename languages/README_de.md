@@ -77,7 +77,7 @@ npm run build      # minifizieren + packen → publish/linkclean-v{version}.zip
 node tools/shoot.js  # 1280×800-Store-Screenshots und Promo-Bild im echten Chrome rendern
 ```
 
-In `chrome://extensions` den Entwicklermodus aktivieren und den Repository-Ordner laden.
+> Dieses Repository dient der Projektvorstellung; der vollständige Quellcode wird nicht veröffentlicht. Bitte installiere LinkClean über die offiziellen Browserstores.
 
 ## Links
 

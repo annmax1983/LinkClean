@@ -77,7 +77,7 @@ npm run build      # minifie et empaquette → publish/linkclean-v{version}.zip
 node tools/shoot.js  # captures 1280×800 et promo rendues dans Chrome réel
 ```
 
-Activez le mode développeur dans `chrome://extensions` et chargez le dossier du dépôt.
+> Ce dépôt sert uniquement à présenter le projet ; le code source complet n’est pas publié. Installez LinkClean depuis les stores officiels.
 
 ## Liens
 

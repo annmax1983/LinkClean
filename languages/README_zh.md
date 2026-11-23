@@ -77,7 +77,7 @@ npm run build      # 压缩 + 打包 → publish/linkclean-v{version}.zip
 node tools/shoot.js  # 用真 Chrome 渲染 1280×800 商店截图与 promo 图
 ```
 
-在 `chrome://extensions` 开启开发者模式，加载仓库根目录即可试用。
+> 本仓库仅用于项目展示，不发布完整源码。请从官方浏览器商店安装 LinkClean。
 
 ## 链接
 

@@ -77,7 +77,7 @@ npm run build      # 圧縮 + パッケージ → publish/linkclean-v{version}.z
 node tools/shoot.js  # 実 Chrome で 1280×800 のストア用スクリーンショットと promo 画像を生成
 ```
 
-`chrome://extensions` でデベロッパーモードを有効にし、リポジトリのルートを読み込むと試せます。
+> このリポジトリはプロジェクト介紹用で、完全なソースコードは公開していません。公式ブラウザーストアから LinkClean をインストールしてください。
 
 ## リンク
 

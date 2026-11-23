@@ -34,6 +34,8 @@ npm test            # 51 assertions: cleaning, unwrap, site rules, text mode, i1
 
 `npm run icons:preview` writes `assets/icon-preview.png` (three glyph candidates at 220/64/48/32/16) without touching `icons/`.
 
+> This repository is for project presentation; the complete source is not published. Install LinkClean from the official browser stores.
+
 ## Store screenshots
 
 ```bash
