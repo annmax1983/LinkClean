@@ -10,7 +10,7 @@ Antes de compartir, quita el lastre de seguimiento. Pega una URL y LinkClean enu
 - **Nada desaparece en silencio** — cada parámetro eliminado aparece por su nombre, con el valor que habría recibido el sitio.
 - **Copia como URL o como Markdown** — el Markdown se construye con el título real: `[título](url)`.
 - **Modo por lotes** — acepta una lista de URL, pero también un párrafo, un correo o un chat. Solo se reescriben los enlaces; el texto de alrededor queda intacto.
-- **Los parámetros funcionales se quedan** — solo se eliminan 58 nombres de seguimiento conocidos y 11 familias de prefijos (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` y otras).
+- **Los parámetros funcionales se quedan** — solo se eliminan 61 nombres de seguimiento conocidos y 12 familias de prefijos (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` y otras).
 - **Pro: desarmar redirecciones** — Google, YouTube, Facebook, Reddit, DuckDuckGo, LinkedIn, Zhihu, Douban, Jianshu, SSPAI, VK, Slack, Outlook Safe Links, Skimlinks, Tumblr, Medium, Pocket, además de Bing, Weibo, Proofpoint y la forma genérica `/redirect?url=` — en local, recursivo, hasta tres saltos.
 - **Pro: resolución AMP** — `cdn.ampproject.org/c/s/`, `google.com/amp/s/` y un `/amp` final vuelven a la página canónica.
 - **Pro: reglas por sitio** — `amazon.com` conserva `th` y `psc` mientras se quita todo lo demás. Gana el dominio más específico y los subdominios lo heredan. Pulsa cualquier parámetro eliminado y quedará conservado en ese sitio para siempre.

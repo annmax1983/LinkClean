@@ -10,7 +10,7 @@ Avant de partager, retirer le poids du traçage. Collez une URL et LinkClean nom
 - **Rien ne disparaît en silence** — chaque paramètre retiré est nommé, avec la valeur que le site aurait reçue.
 - **Copie en URL ou en Markdown** — le Markdown est construit à partir du vrai titre : `[titre](url)`.
 - **Mode par lot** — accepte une liste d'URL, mais aussi un paragraphe, un e-mail ou une conversation. Seuls les liens sont réécrits, le texte autour reste intact.
-- **Les paramètres fonctionnels restent** — seuls 58 noms de traçage connus et 11 familles de préfixes (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` et d'autres) sont retirés.
+- **Les paramètres fonctionnels restent** — seuls 61 noms de traçage connus et 12 familles de préfixes (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` et d'autres) sont retirés.
 - **Pro : démonter les redirections** — Google, YouTube, Facebook, Reddit, DuckDuckGo, LinkedIn, Zhihu, Douban, Jianshu, SSPAI, VK, Slack, Outlook Safe Links, Skimlinks, Tumblr, Medium, Pocket, plus Bing, Weibo, Proofpoint et la forme générique `/redirect?url=` — en local, récursif, trois sauts au maximum.
 - **Pro : résolution AMP** — `cdn.ampproject.org/c/s/`, `google.com/amp/s/` et un `/amp` final reviennent à la page canonique.
 - **Pro : règles par site** — `amazon.com` garde `th` et `psc` pendant que le reste est supprimé. Le domaine le plus précis l'emporte et les sous-domaines en héritent. Un clic sur un paramètre retiré le conserve définitivement sur ce site.

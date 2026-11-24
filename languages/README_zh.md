@@ -10,7 +10,7 @@
 - **删了什么一目了然** —— 每个被移除的参数按名字列出，附带站点原本会拿到的值，不做静默改动。
 - **复制为纯网址或 Markdown** —— Markdown 用真实页面标题生成 `[标题](网址)`。
 - **批量模式** —— 既吃「一行一个网址」，也吃整段文字、邮件、聊天记录；只改写里面的链接，前后文字原样保留。
-- **保留功能参数** —— 只删 58 个已知追踪参数名与 11 个前缀系列（`utm_`、`ga_`、`mtm_`、`piwik_`、`_hs` 等），其余一律不动。
+- **保留功能参数** —— 只删 61 个已知追踪参数名与 12 个前缀系列（`utm_`、`ga_`、`mtm_`、`piwik_`、`_hs` 等），其余一律不动。
 - **Pro：跳转壳拆解** —— Google、YouTube、Facebook、Reddit、DuckDuckGo、LinkedIn、知乎、豆瓣、简书、少数派、VK、Slack、Outlook Safe Links、Skimlinks、Tumblr、Medium、Pocket，加上 Bing、微博、Proofpoint 与通用 `/redirect?url=`，最多递归三层，全程本机。
 - **Pro：AMP 还原** —— `cdn.ampproject.org/c/s/`、`google.com/amp/s/`、结尾 `/amp` 都回到正式页面。
 - **Pro：站点规则** —— 让 `amazon.com` 保留 `th`、`psc`，其它照删；越具体的域名优先级越高，子域自动继承。在结果里点一下某个被删参数，它就永久加入本站保留名单。

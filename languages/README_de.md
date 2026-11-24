@@ -10,7 +10,7 @@ Vor dem Teilen den Tracking-Ballast entfernen. Link einfügen, und LinkClean nen
 - **Nichts verschwindet still** — jeder entfernte Parameter wird mit Namen genannt, samt dem Wert, den die Seite erhalten hätte.
 - **Kopie als URL oder Markdown** — Markdown entsteht aus dem echten Seitentitel: `[Titel](URL)`.
 - **Stapelmodus** — nimmt eine Liste von URLs, aber auch einen Absatz, eine E-Mail oder einen Chatverlauf. Nur die Links werden ersetzt, der Text drumherum bleibt unverändert.
-- **Funktionsparameter bleiben** — entfernt werden nur 58 bekannte Tracking-Namen und 11 Präfix-Familien (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` und weitere).
+- **Funktionsparameter bleiben** — entfernt werden nur 61 bekannte Tracking-Namen und 12 Präfix-Familien (`utm_`, `ga_`, `mtm_`, `piwik_`, `_hs` und weitere).
 - **Pro: Weiterleitungen auflösen** — Google, YouTube, Facebook, Reddit, DuckDuckGo, LinkedIn, Zhihu, Douban, Jianshu, SSPAI, VK, Slack, Outlook Safe Links, Skimlinks, Tumblr, Medium, Pocket sowie Bing, Weibo, Proofpoint und die allgemeine Form `/redirect?url=` — lokal, rekursiv, höchstens drei Sprünge.
 - **Pro: AMP auflösen** — `cdn.ampproject.org/c/s/`, `google.com/amp/s/` und ein abschließendes `/amp` führen zur kanonischen Seite zurück.
 - **Pro: Seitenregeln** — `amazon.com` behält `th` und `psc`, alles andere wird gestrichen. Die spezifischste Domain gewinnt, Subdomains erben sie. Ein Klick auf einen entfernten Parameter hält ihn dauerhaft auf dieser Seite.
