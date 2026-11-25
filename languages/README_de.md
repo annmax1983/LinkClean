@@ -1,8 +1,8 @@
-# LinkClean - Link-Reiniger
+# VKT LinkClean - Link-Reiniger
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Vor dem Teilen den Tracking-Ballast entfernen. Link einfügen, und LinkClean nennt jeden entfernten Parameter, packt Weiterleitungen und AMP-Seiten aus und gibt einen sauberen Link zurück. Alles läuft auf deinem Gerät — kein Link verlässt den Browser.
+Vor dem Teilen den Tracking-Ballast entfernen. Link einfügen, und VKT LinkClean nennt jeden entfernten Parameter, packt Weiterleitungen und AMP-Seiten aus und gibt einen sauberen Link zurück. Alles läuft auf deinem Gerät — kein Link verlässt den Browser.
 
 ## Funktionen
 
@@ -37,7 +37,7 @@ Ein Lizenzschlüssel aktiviert zwei Browser; entfernst du ihn, wird der Platz wi
 
 ## So funktioniert es
 
-1. Auf das LinkClean-Symbol klicken. Trägt die aktuelle Seite Tracking-Parameter, ist das Feld bereits gefüllt.
+1. Auf das VKT LinkClean-Symbol klicken. Trägt die aktuelle Seite Tracking-Parameter, ist das Feld bereits gefüllt.
 2. Auf „Link bereinigen" drücken. Das Ergebnis zeigt die saubere URL, jeden entfernten Parameter als Chip und — mit Lizenz und bei einer Weiterleitung — die aufgelöste Kette.
 3. Link kopieren, als Markdown kopieren, öffnen oder denselben Link in den Stapelmodus geben.
 4. Soll ein Parameter bleiben: im Ergebnis anklicken, und er landet dauerhaft auf der Behalten-Liste dieser Seite.
@@ -60,7 +60,7 @@ Ein Lizenzschlüssel aktiviert zwei Browser; entfernst du ihn, wird der Platz wi
 | `clipboardRead` | Die Zwischenablage nur beim Drücken von „Einfügen" lesen, nie im Hintergrund |
 | `https://api.annmax1983.com/*` | Nur Lizenzaktivierung und -prüfung, niemals ein Link |
 
-Kein Content-Skript, kein `<all_urls>`-Hostzugriff, keine `tabs`- und keine `downloads`-Berechtigung — LinkClean kann den Text keiner Seite sehen.
+Kein Content-Skript, kein `<all_urls>`-Hostzugriff, keine `tabs`- und keine `downloads`-Berechtigung — VKT LinkClean kann den Text keiner Seite sehen.
 
 ## Unterstützte Browser
 
@@ -77,7 +77,7 @@ npm run build      # minifizieren + packen → publish/linkclean-v{version}.zip
 node tools/shoot.js  # 1280×800-Store-Screenshots und Promo-Bild im echten Chrome rendern
 ```
 
-> Dieses Repository dient der Projektvorstellung; der vollständige Quellcode wird nicht veröffentlicht. Bitte installiere LinkClean über die offiziellen Browserstores.
+> Dieses Repository dient der Projektvorstellung; der vollständige Quellcode wird nicht veröffentlicht. Bitte installiere VKT LinkClean über die offiziellen Browserstores.
 
 ## Links
 

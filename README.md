@@ -1,4 +1,4 @@
-# LinkClean
+# VKT LinkClean
 
 Remove utm_*, fbclid, gclid and other tracking parameters from a link before you share it. Everything runs on the device: no account, no analytics, no server.
 
@@ -34,7 +34,7 @@ npm test            # 51 assertions: cleaning, unwrap, site rules, text mode, i1
 
 `npm run icons:preview` writes `assets/icon-preview.png` (three glyph candidates at 220/64/48/32/16) without touching `icons/`.
 
-> This repository is for project presentation; the complete source is not published. Install LinkClean from the official browser stores.
+> This repository is for project presentation; the complete source is not published. Install VKT LinkClean from the official browser stores.
 
 ## Store screenshots
 
@@ -50,7 +50,7 @@ Writes five 1280×800 shots (the size Chrome Web Store and Edge Add-ons require)
 
 ## Repo split
 
-This repository builds the Chrome/Edge package (`background.service_worker`). The Firefox twin lives in `codeup/LinkClean` and differs only in `manifest.json` (event page instead of a worker), the `chrome.*` → `browser.*` namespace, and the packaging script. HTML and README stay in this repo only.
+This repository builds the Chrome/Edge package (`background.service_worker`). The Firefox twin lives in `codeup/VKT LinkClean` and differs only in `manifest.json` (event page instead of a worker), the `chrome.*` → `browser.*` namespace, and the packaging script. HTML and README stay in this repo only.
 
 ## Layout
 

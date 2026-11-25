@@ -1,8 +1,8 @@
-# LinkClean - Nettoyeur de liens
+# VKT LinkClean - Nettoyeur de liens
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
 
-Avant de partager, retirer le poids du traçage. Collez une URL et LinkClean nomme chaque paramètre supprimé, démonte les redirections et les pages AMP, puis rend un lien propre. Tout se passe sur votre appareil : aucun lien ne quitte le navigateur.
+Avant de partager, retirer le poids du traçage. Collez une URL et VKT LinkClean nomme chaque paramètre supprimé, démonte les redirections et les pages AMP, puis rend un lien propre. Tout se passe sur votre appareil : aucun lien ne quitte le navigateur.
 
 ## Points forts
 
@@ -37,7 +37,7 @@ Une clé active deux navigateurs ; la retirer libère cette place. Vérification
 
 ## Utilisation
 
-1. Cliquez sur l'icône LinkClean. Si la page en cours porte des paramètres de traçage, le champ est déjà rempli.
+1. Cliquez sur l'icône VKT LinkClean. Si la page en cours porte des paramètres de traçage, le champ est déjà rempli.
 2. Appuyez sur « Nettoyer le lien ». Le résultat affiche l'URL propre, chaque paramètre retiré sous forme d'étiquette et, avec une licence et en cas de redirection, la chaîne résolue.
 3. Copiez le lien, copiez-le en Markdown, ouvrez-le ou envoyez-le au mode par lot.
 4. Un paramètre ne devait pas partir ? Cliquez dessus dans le résultat : il rejoint la liste des conservés de ce site.
@@ -60,7 +60,7 @@ Une clé active deux navigateurs ; la retirer libère cette place. Vérification
 | `clipboardRead` | Lire le presse-papiers uniquement en appuyant sur Coller, jamais en arrière-plan |
 | `https://api.annmax1983.com/*` | Activation et vérification de licence uniquement ; jamais un lien |
 
-Pas de content script, pas d'accès `<all_urls>`, pas d'autorisation `tabs`, pas d'autorisation `downloads` : LinkClean ne peut voir le texte d'aucune page.
+Pas de content script, pas d'accès `<all_urls>`, pas d'autorisation `tabs`, pas d'autorisation `downloads` : VKT LinkClean ne peut voir le texte d'aucune page.
 
 ## Navigateurs pris en charge
 
@@ -77,7 +77,7 @@ npm run build      # minifie et empaquette → publish/linkclean-v{version}.zip
 node tools/shoot.js  # captures 1280×800 et promo rendues dans Chrome réel
 ```
 
-> Ce dépôt sert uniquement à présenter le projet ; le code source complet n’est pas publié. Installez LinkClean depuis les stores officiels.
+> Ce dépôt sert uniquement à présenter le projet ; le code source complet n’est pas publié. Installez VKT LinkClean depuis les stores officiels.
 
 ## Liens
 

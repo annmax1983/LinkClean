@@ -1,8 +1,8 @@
-# LinkClean - 链接净化
+# VKT LinkClean - 链接净化
 
 [English](../README.md) | 中文 | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
-分享链接之前，先把上面的追踪尾巴摘干净。粘贴一个网址，LinkClean 会列出删掉的每一个参数，拆开跳转链接与 AMP 页，再给你一条干净链接。全部在本机完成，链接不会离开浏览器。
+分享链接之前，先把上面的追踪尾巴摘干净。粘贴一个网址，VKT LinkClean 会列出删掉的每一个参数，拆开跳转链接与 AMP 页，再给你一条干净链接。全部在本机完成，链接不会离开浏览器。
 
 ## 亮点
 
@@ -37,7 +37,7 @@
 
 ## 使用流程
 
-1. 点 LinkClean 图标。当前页面如果带追踪参数，输入框已经替你填好。
+1. 点 VKT LinkClean 图标。当前页面如果带追踪参数，输入框已经替你填好。
 2. 点「清理链接」。结果会显示干净网址、每个被删参数的标签；有授权且命中跳转壳时，还会显示拆开的跳转链。
 3. 复制链接、复制 Markdown、直接打开，或者把这条链接丢进批量继续处理。
 4. 发现某个参数不该删？在结果里点它一下，就加入本站保留名单。
@@ -60,7 +60,7 @@
 | `clipboardRead` | 只在你点「粘贴」时读剪贴板，绝不在后台读取 |
 | `https://api.annmax1983.com/*` | 仅用于授权激活与校验，从不传输链接 |
 
-没有内容脚本，没有 `<all_urls>` 站点权限，没有 `tabs` 权限，也没有 `downloads` 权限——LinkClean 看不到任何页面的文字。
+没有内容脚本，没有 `<all_urls>` 站点权限，没有 `tabs` 权限，也没有 `downloads` 权限——VKT LinkClean 看不到任何页面的文字。
 
 ## 支持浏览器
 
@@ -77,7 +77,7 @@ npm run build      # 压缩 + 打包 → publish/linkclean-v{version}.zip
 node tools/shoot.js  # 用真 Chrome 渲染 1280×800 商店截图与 promo 图
 ```
 
-> 本仓库仅用于项目展示，不发布完整源码。请从官方浏览器商店安装 LinkClean。
+> 本仓库仅用于项目展示，不发布完整源码。请从官方浏览器商店安装 VKT LinkClean。
 
 ## 链接
 

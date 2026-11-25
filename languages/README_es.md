@@ -1,8 +1,8 @@
-# LinkClean - Limpiador de enlaces
+# VKT LinkClean - Limpiador de enlaces
 
 [English](../README.md) | [中文](README_zh.md) | Español | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
-Antes de compartir, quita el lastre de seguimiento. Pega una URL y LinkClean enumera cada parámetro eliminado, desarma redirecciones y páginas AMP, y te devuelve un enlace limpio. Todo ocurre en tu dispositivo: ningún enlace sale del navegador.
+Antes de compartir, quita el lastre de seguimiento. Pega una URL y VKT LinkClean enumera cada parámetro eliminado, desarma redirecciones y páginas AMP, y te devuelve un enlace limpio. Todo ocurre en tu dispositivo: ningún enlace sale del navegador.
 
 ## Funciones
 
@@ -37,7 +37,7 @@ Una clave activa dos navegadores; al quitarla, la plaza vuelve a quedar libre. C
 
 ## Cómo se usa
 
-1. Pulsa el icono de LinkClean. Si la página actual lleva parámetros de seguimiento, el campo ya viene relleno.
+1. Pulsa el icono de VKT LinkClean. Si la página actual lleva parámetros de seguimiento, el campo ya viene relleno.
 2. Pulsa «Limpiar enlace». El resultado muestra la URL limpia, cada parámetro eliminado como etiqueta y, con licencia y si había redirección, la cadena resuelta.
 3. Copia el enlace, cópialo como Markdown, ábrelo o pásalo al modo por lotes.
 4. ¿Un parámetro no debía desaparecer? Púlsalo en el resultado y quedará en la lista de conservados de ese sitio.
@@ -60,7 +60,7 @@ Una clave activa dos navegadores; al quitarla, la plaza vuelve a quedar libre. C
 | `clipboardRead` | Leer el portapapeles solo al pulsar Pegar, nunca en segundo plano |
 | `https://api.annmax1983.com/*` | Solo activación y comprobación de licencia; nunca un enlace |
 
-Sin content script, sin acceso a `<all_urls>`, sin permiso `tabs` y sin permiso `downloads`: LinkClean no puede ver el texto de ninguna página.
+Sin content script, sin acceso a `<all_urls>`, sin permiso `tabs` y sin permiso `downloads`: VKT LinkClean no puede ver el texto de ninguna página.
 
 ## Navegadores compatibles
 
@@ -77,7 +77,7 @@ npm run build      # minifica y empaqueta → publish/linkclean-v{version}.zip
 node tools/shoot.js  # capturas 1280×800 y promo en Chrome real
 ```
 
-> Este repositorio es solo para presentar el proyecto; el código completo no se publica. Instala LinkClean desde las tiendas oficiales de navegadores.
+> Este repositorio es solo para presentar el proyecto; el código completo no se publica. Instala VKT LinkClean desde las tiendas oficiales de navegadores.
 
 ## Enlaces
 
