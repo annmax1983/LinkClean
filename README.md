@@ -73,4 +73,4 @@ test/              node --test suites
 
 ## Status
 
-Not released. Chrome / Edge / Firefox listings are still "Coming Soon"; there is no store link yet. Prices and free-tier quotas in `_locales` are drafts pending a final decision.
+Live on Microsoft Edge Add-ons ([Install for Edge](https://microsoftedge.microsoft.com/addons/detail/oejbcdjjhabipgkgiihegddkcjpnnlna)); the Chrome Web Store and Firefox Add-ons listings are still "Coming Soon". Prices and free-tier quotas in `_locales` are drafts pending a final decision.
